@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act_UsuariosCuarentena">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="191dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/epn" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/mascarablanco"
+        tools:srcCompat="@drawable/mascarablanco" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:backgroundTint="#7FBA6B"
+        android:text="BUSCAR"
+        app:layout_constraintBottom_toBottomOf="@+id/edt_usuario"
+        app:layout_constraintStart_toEndOf="@+id/edt_usuario"
+        app:layout_constraintTop_toTopOf="@+id/edt_usuario"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/lv_usuarios"
+        android:layout_width="372dp"
+        android:layout_height="408dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/edt_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#7FBA6B"
+        android:text="CANCELAR"
+        app:layout_constraintEnd_toEndOf="@+id/lv_usuarios"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="@+id/lv_usuarios"
+        app:layout_constraintTop_toBottomOf="@+id/lv_usuarios" />
+
+    <Button
+        android:id="@+id/btn_buscarenMapa"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#7FBA6B"
+        android:text="ok"
+        app:layout_constraintEnd_toEndOf="@+id/lv_usuarios"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="@+id/lv_usuarios"
+        app:layout_constraintTop_toBottomOf="@+id/lv_usuarios" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -43,7 +43,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="87dp"
         android:layout_marginBottom="29dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_visualizarMapa"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pacientes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.308"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_visualizarMapa"
         android:layout_width="339dp"
         android:layout_height="59dp"
         android:layout_marginStart="48dp"
@@ -63,13 +63,12 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583" />
+        app:layout_constraintVertical_bias="0.622" />
 
     <Button
-        android:id="@+id/btn_visualizarMapa"
+        android:id="@+id/btn_pacientes"
         android:layout_width="341dp"
         android:layout_height="67dp"
         android:layout_marginStart="48dp"
@@ -79,15 +78,15 @@
         android:backgroundTint="#7FBA6B"
         android:text="VISUALIZAR PACIENTES"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_visualizarMapa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.666" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_visualizarFocos"
         android:layout_width="334dp"
         android:layout_height="63dp"
         android:backgroundTint="#7FBA6B"
@@ -95,9 +94,9 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.675" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_visualizarMapa"
+        app:layout_constraintVertical_bias="0.068" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

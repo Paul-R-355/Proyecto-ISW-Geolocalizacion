@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EPN-Turnos-Geolocalizacion-Covid</string>
+    <string name="title_activity_maps_usuario">Map</string>
+    <string name="title_activity_act__maps_foco_contagio">Map</string>
 </resources>
