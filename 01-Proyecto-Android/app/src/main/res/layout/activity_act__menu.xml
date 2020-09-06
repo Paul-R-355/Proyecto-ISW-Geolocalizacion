@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Act_Menu">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/mascarablanco"
+        tools:srcCompat="@drawable/mascarablanco" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="191dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/epn" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_visualizarMapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.033"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="339dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#7FBA6B"
+        android:text="VISUALIZAR MAPA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <Button
+        android:id="@+id/btn_visualizarMapa"
+        android:layout_width="341dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#7FBA6B"
+        android:text="VISUALIZAR PACIENTES"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="334dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#7FBA6B"
+        android:text="ZONAS DE CONTAGIO"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
