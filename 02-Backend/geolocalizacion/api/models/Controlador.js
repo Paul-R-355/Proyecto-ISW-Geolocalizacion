@@ -1,5 +1,5 @@
 /**
- * Paciente.js
+ * Controlador.js
  *
  * @description :: A model definition represents a database table/collection.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
@@ -8,21 +8,11 @@
 module.exports = {
 
   attributes: {
+
     nombre:{
       type: 'string',
       minLength: 3,
       required:true
-    },
-    modo:{
-      type: 'string',
-      isIn: ['Administrativo','Estudiante','Profesor'],
-      defaultsTo: 'Estudiante'
-    },
-    codigoUnico:{
-      type: 'string',
-      unique: true,
-      required:true,
-      minLength:9
     },
     cedula:{
       type: 'string',
@@ -39,11 +29,7 @@ module.exports = {
       type:'string',
       isEmail: true
     },
-    estado:{
-      type: 'string',
-      isIn: ['Negativo','Positivo-Asintomático','Positivo-Grave'],
-      required:true
-    }
   },
+
 };
 

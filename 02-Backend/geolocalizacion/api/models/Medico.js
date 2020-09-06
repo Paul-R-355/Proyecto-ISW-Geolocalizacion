@@ -27,16 +27,6 @@ module.exports = {
     correo:{
       type:'string',
       isEmail: true
-    },
-    paciente_fk:{
-      type: 'string',
-      unique: true,
-      required: true
-    },
-    mapa_fk:{
-      type: 'string',
-      unique: true,
-      required: true
     }
   },
 };

@@ -13,21 +13,6 @@ module.exports = {
     },
     latitud:{
       type: 'string'
-    },
-    paciente_fk:{
-      type: 'string',
-      unique: true,
-      required: true
-    },
-    medico_fk:{
-      type: 'string',
-      unique: true,
-      required: true
-    },
-    Administrador_fk:{
-      type: 'string',
-      unique: true,
-      required: true
     }
   },
 
