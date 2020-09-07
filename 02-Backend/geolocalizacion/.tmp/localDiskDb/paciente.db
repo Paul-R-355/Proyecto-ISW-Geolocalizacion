@@ -1,0 +1,10 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"codigoUnico","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"cedula","unique":true,"sparse":false}}
+{"createdAt":1599372283333,"updatedAt":1599372283333,"id":2,"nombre":"Jose Aldo","modo":"Administrativo","codigoUnico":"201312345","cedula":"1718580000","clave":"jaldo123","correo":"j.aldo@gmail.com","estado":"Positivo-Asintomático","_id":2}
+{"createdAt":1599372469662,"updatedAt":1599372469662,"id":3,"nombre":"Pablo Paz","modo":"Estudiante","codigoUnico":"201300001","cedula":"1718580001","clave":"ppaz123","correo":"p.paz@gmail.com","estado":"Positivo-Grave","_id":3}
+{"createdAt":1599372562524,"updatedAt":1599372562524,"id":4,"nombre":"David Cruz","modo":"Estudiante","codigoUnico":"201500002","cedula":"1718580002","clave":"dcruz123","correo":"d.cruz@gmail.com","estado":"Negativo","_id":4}
+{"createdAt":1599372674733,"updatedAt":1599372674733,"id":5,"nombre":"Marla Ruiz","modo":"Profesor","codigoUnico":"201500003","cedula":"1718580003","clave":"marlaruiz123","correo":"m.ruiz@gmail.com","estado":"Negativo","_id":5}
+{"createdAt":1599372757376,"updatedAt":1599372757376,"id":6,"nombre":"Laura Iza","modo":"Estudiante","codigoUnico":"201500004","cedula":"1718580004","clave":"liza123","correo":"l.iza@gmail.com","estado":"Positivo-Asintomático","_id":6}
+{"createdAt":1599372820800,"updatedAt":1599372820800,"id":7,"nombre":"Rafaelo Garcia","modo":"Estudiante","codigoUnico":"201500005","cedula":"1718580005","clave":"rgarcia123","correo":"r.garcia@gmail.com","estado":"Negativo","_id":7}
+{"createdAt":1599372887936,"updatedAt":1599372887936,"id":8,"nombre":"Estefania Calle","modo":"Estudiante","codigoUnico":"201500006","cedula":"1718580006","clave":"ecalle123","correo":"e.calle@gmail.com","estado":"Negativo","_id":8}
