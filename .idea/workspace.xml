@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee14e530-53fb-4b07-a7a3-4f55becd6ecd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Backend/geolocalizacion/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/02-Backend/geolocalizacion/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +48,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1599435921480">
+    <state x="372" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1599437586516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="372" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599435921480" />
+    <state x="372" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599437586516" />
   </component>
 </project>
