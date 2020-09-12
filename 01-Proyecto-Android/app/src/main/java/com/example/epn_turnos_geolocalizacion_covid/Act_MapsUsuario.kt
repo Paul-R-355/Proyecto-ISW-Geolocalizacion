@@ -3,6 +3,7 @@ package com.example.epn_turnos_geolocalizacion_covid
 import android.content.pm.PackageManager
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -24,14 +25,22 @@ class Act_MapsUsuario : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
+
     }
 
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
         establecerConfiguracionMapa(mMap)
-        rutaUsuarioCercoRoto()
-        //localizacionUsuario()
+        val paciente= intent.getParcelableExtra<Pacientes>("pacienteA")
+        Log.i("List-view", "Paciente Select:  ${paciente}")
+
+        if(paciente.nombre=="Paul"){
+            rutaUsuarioCercoRoto()
+        }else{
+            localizacionUsuario(paciente)
+        }
+
     }
 
     fun rutaUsuarioCercoRoto(){
@@ -123,10 +132,10 @@ class Act_MapsUsuario : AppCompatActivity(), OnMapReadyCallback {
 
 
 
-    fun localizacionUsuario(){
+    fun localizacionUsuario(paciente : Pacientes){
 
-        val origen = LatLng(-0.231570, -78.511901)
-        val nombre="Usuario"
+        val origen = LatLng(paciente.longitud!!, paciente.latitud!!)
+        val nombre=paciente.nombre+" "+paciente.apellido
 
         mMap.addMarker(MarkerOptions().position(origen).title(nombre))
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origen, 18F))
@@ -140,7 +149,6 @@ class Act_MapsUsuario : AppCompatActivity(), OnMapReadyCallback {
                 .fillColor(Color.argb(128, 0, 180, 0))
                 .clickable(true)
         )
-
     }
 
 

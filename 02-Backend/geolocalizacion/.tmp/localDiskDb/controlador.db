@@ -1,7 +1,3 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"cedula","unique":true,"sparse":false}}
-<<<<<<< HEAD
-{"createdAt":1599371907672,"updatedAt":1599371907672,"id":1,"nombre":"Jorge Masvidal","cedula":"1718584004","clave":"jmasvidal123","correo":"j.masvidal@gmail.com","_id":1}
-=======
-{"nombre":"admin","cedula":"1234567890","clave":"Admin_123","correo":"admin@epn.edu.ec","createdAt":1599434837653,"updatedAt":1599434837653,"id":1,"_id":1}
->>>>>>> Desarrollo-David-Cruz
+{"createdAt":1599434837653,"updatedAt":1599434837653,"id":1,"nombre":"admin","cedula":"1234567890","clave":"Admin_123","correo":"admin@epn.edu.ec","_id":1}
