@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_act__usuarios_cuarentena.*
 
 class Act_UsuariosCuarentena : AppCompatActivity() {
     val listaPacientes = arrayListOf<Pacientes>()
+    var posicion : Int = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_act__usuarios_cuarentena)
@@ -21,7 +22,7 @@ class Act_UsuariosCuarentena : AppCompatActivity() {
         listaPacientes.add(Pacientes("Nicole", "Antoneda", -0.3533981, -78.5476427))
         listaPacientes.add(Pacientes("Rosa", "Melando", -0.3389788, -78.5452394))
         listaPacientes.add(Pacientes("Jose", "Arciniega", -0.348935, -78.5579424))
-        listaPacientes.add(Pacientes("Paul", "Lopez", -0.3331424, -78.5548525))
+        listaPacientes.add(Pacientes("Paul", "Reinoso", -0.3331424, -78.5548525))
         listaPacientes.add(Pacientes("Olga", "Velez", -0.3389788, -78.5418062))
         listaPacientes.add(Pacientes("Carlos", "Chicaiza", -0.3211263, -78.5572557))
         listaPacientes.add(Pacientes("Maria", "Magdalena", -0.3276493, -78.4480791))
@@ -37,11 +38,14 @@ class Act_UsuariosCuarentena : AppCompatActivity() {
         lv_usuarios
             .onItemClickListener= AdapterView.OnItemClickListener{ parent, view, position, id ->
             Log.i("List-view", "position $position")
+            posicion=position
         }
         btn_buscarenMapa
             .setOnClickListener{ boton->
-                irMapa()
+                //irMapa()
+                enviarPaciente(posicion)
             }
+
         btn_cancelar
             .setOnClickListener{
                 irMenu()
@@ -80,4 +84,14 @@ class Act_UsuariosCuarentena : AppCompatActivity() {
         }
     }
 
+    fun enviarPaciente(posicion:Int){
+        val paciente=listaPacientes.get(posicion)
+        Log.i("List-view", "Paciente Select:  ${paciente}")
+        val intentException= Intent(
+            this,
+            Act_MapsUsuario::class.java
+        )
+        intentException.putExtra("pacienteA",paciente)
+        startActivity(intentException)
+    }
 }

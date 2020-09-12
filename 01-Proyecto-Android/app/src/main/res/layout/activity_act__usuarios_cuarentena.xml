@@ -8,22 +8,22 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="191dp"
-        android:layout_height="135dp"
+        android:layout_width="225dp"
+        android:layout_height="84dp"
         android:layout_marginStart="98dp"
         android:layout_marginEnd="99dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029"
+        app:layout_constraintVertical_bias="0.03"
         app:srcCompat="@drawable/epn" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="119dp"
+        android:layout_height="139dp"
         android:layout_marginTop="244dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,14 +48,14 @@
 
     <ListView
         android:id="@+id/lv_usuarios"
-        android:layout_width="372dp"
-        android:layout_height="408dp"
+        android:layout_width="376dp"
+        android:layout_height="360dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43">
+        app:layout_constraintVertical_bias="0.621">
 
     </ListView>
 
@@ -64,24 +64,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Ingrese un paciente"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.157" />
 
     <Button
         android:id="@+id/btn_cancelar"
         android:layout_width="160dp"
         android:layout_height="56dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#7FBA6B"
         android:text="CANCELAR"
         app:layout_constraintEnd_toEndOf="@+id/lv_usuarios"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="@+id/lv_usuarios"
         app:layout_constraintTop_toBottomOf="@+id/lv_usuarios" />
 
@@ -89,11 +89,11 @@
         android:id="@+id/btn_buscarenMapa"
         android:layout_width="157dp"
         android:layout_height="57dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#7FBA6B"
         android:text="ok"
         app:layout_constraintEnd_toEndOf="@+id/lv_usuarios"
-        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="@+id/lv_usuarios"
         app:layout_constraintTop_toBottomOf="@+id/lv_usuarios" />
 
