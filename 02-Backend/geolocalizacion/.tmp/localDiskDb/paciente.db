@@ -1,6 +1,7 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"codigoUnico","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"cedula","unique":true,"sparse":false}}
+<<<<<<< HEAD
 {"createdAt":1599372283333,"updatedAt":1599372283333,"id":2,"nombre":"Jose Aldo","modo":"Administrativo","codigoUnico":"201312345","cedula":"1718580000","clave":"jaldo123","correo":"j.aldo@gmail.com","estado":"Positivo-Asintomático","_id":2}
 {"createdAt":1599372469662,"updatedAt":1599372469662,"id":3,"nombre":"Pablo Paz","modo":"Estudiante","codigoUnico":"201300001","cedula":"1718580001","clave":"ppaz123","correo":"p.paz@gmail.com","estado":"Positivo-Grave","_id":3}
 {"createdAt":1599372562524,"updatedAt":1599372562524,"id":4,"nombre":"David Cruz","modo":"Estudiante","codigoUnico":"201500002","cedula":"1718580002","clave":"dcruz123","correo":"d.cruz@gmail.com","estado":"Negativo","_id":4}
@@ -8,3 +9,21 @@
 {"createdAt":1599372757376,"updatedAt":1599372757376,"id":6,"nombre":"Laura Iza","modo":"Estudiante","codigoUnico":"201500004","cedula":"1718580004","clave":"liza123","correo":"l.iza@gmail.com","estado":"Positivo-Asintomático","_id":6}
 {"createdAt":1599372820800,"updatedAt":1599372820800,"id":7,"nombre":"Rafaelo Garcia","modo":"Estudiante","codigoUnico":"201500005","cedula":"1718580005","clave":"rgarcia123","correo":"r.garcia@gmail.com","estado":"Negativo","_id":7}
 {"createdAt":1599372887936,"updatedAt":1599372887936,"id":8,"nombre":"Estefania Calle","modo":"Estudiante","codigoUnico":"201500006","cedula":"1718580006","clave":"ecalle123","correo":"e.calle@gmail.com","estado":"Negativo","_id":8}
+=======
+{"nombre":"David Cruz","modo":"Estudiante","codigoUnico":"201510416","cedula":"1718185265","clave":"David_123","correo":"david.cruz@epn.edu.ec","estado":"Negativo","createdAt":1599431858371,"updatedAt":1599431858371,"id":1,"_id":1}
+{"nombre":"Goku Vilatuña","modo":"Administrativo","codigoUnico":"201312415","cedula":"1718187894","clave":"Goku_123","correo":"goku.vilatuña@epn.edu.ec","estado":"Positivo-Asintomático","createdAt":1599432314561,"updatedAt":1599432314561,"id":2,"_id":2}
+{"nombre":"Vegeta Kayosama","modo":"Estudiante","codigoUnico":"201365415","cedula":"17181832356","clave":"Vegeta_123","correo":"vegueta.kayosama@epn.edu.ec","estado":"Positivo-Asintomático","createdAt":1599433033101,"updatedAt":1599433033101,"id":3,"_id":3}
+{"nombre":"Paul Cacawate","modo":"Estudiante","codigoUnico":"201345272","cedula":"17265674680","clave":"Nicole_123","correo":"paul.cacawate@epn.edu.ec","estado":"Negativo","createdAt":1599433058382,"updatedAt":1599433058382,"id":4,"_id":4}
+{"nombre":"Nicole Antoneda","modo":"Estudiante","codigoUnico":"201161072","cedula":"1714534680","clave":"Nicole_123","correo":"nicole.antoneda@epn.edu.ec","estado":"Negativo","createdAt":1599433081630,"updatedAt":1599433081630,"id":5,"_id":5}
+{"nombre":"Grace Borja","modo":"Estudiante","codigoUnico":"201123142","cedula":"1717468680","clave":"Grace_123","correo":"grace.borja@epn.edu.ec","estado":"Negativo","createdAt":1599433156297,"updatedAt":1599433156297,"id":6,"_id":6}
+{"nombre":"Kenvin Quispe","modo":"Estudiante","codigoUnico":"206783142","cedula":"1717412380","clave":"kenvin_123","correo":"kenvin.quispe@epn.edu.ec","estado":"Positivo-Asintomático","createdAt":1599433212408,"updatedAt":1599433212408,"id":7,"_id":7}
+{"nombre":"Leonardo Sanchez","modo":"Estudiante","codigoUnico":"205583142","cedula":"1717454897","clave":"leonardo_123","correo":"leonardo.sanchez@epn.edu.ec","estado":"Positivo-Asintomático","createdAt":1599433253374,"updatedAt":1599433253374,"id":8,"_id":8}
+{"nombre":"Walker Reyes","modo":"Estudiante","codigoUnico":"203674242","cedula":"1734567745","clave":"walker_123","correo":"walker.reyes@epn.edu.ec","estado":"Positivo-Asintomático","createdAt":1599433299584,"updatedAt":1599433299584,"id":9,"_id":9}
+{"nombre":"Anti mage","modo":"Estudiante","codigoUnico":"206664242","cedula":"1734666745","clave":"antimage_123","correo":"anti.mage@epn.edu.ec","estado":"Positivo-Asintomático","createdAt":1599433338173,"updatedAt":1599433338173,"id":10,"_id":10}
+{"nombre":"Rosa Melano","modo":"Estudiante","codigoUnico":"20767894242","cedula":"17346764545","clave":"Rosa_123","correo":"rosa.melano@epn.edu.ec","estado":"Positivo-Asintomático","createdAt":1599433384867,"updatedAt":1599433384867,"id":11,"_id":11}
+{"nombre":"Juanito Olivera","modo":"Estudiante","codigoUnico":"20447894242","cedula":"17346766545","clave":"JHuanito_123","correo":"juanito.olivera@epn.edu.ec","estado":"Positivo-Grave","createdAt":1599433438012,"updatedAt":1599433438012,"id":12,"_id":12}
+{"nombre":"Elver Todito","modo":"Profesor","codigoUnico":"20456894242","cedula":"17346788845","clave":"Elver_123","correo":"elver.todito@epn.edu.ec","estado":"Positivo-Grave","createdAt":1599433492220,"updatedAt":1599433492220,"id":13,"_id":13}
+{"nombre":"Pancho Rosa","modo":"Administrativo","codigoUnico":"20455678242","cedula":"17346788765","clave":"Pancho_123","correo":"pancho.rosa@epn.edu.ec","estado":"Positivo-Grave","createdAt":1599433546033,"updatedAt":1599433546033,"id":14,"_id":14}
+{"nombre":"Bout Rompe","modo":"Administrativo","codigoUnico":"20498768242","cedula":"17346987655","clave":"bout_123","correo":"bout.rompe@epn.edu.ec","estado":"Positivo-Grave","createdAt":1599433624072,"updatedAt":1599433624072,"id":15,"_id":15}
+{"nombre":"Melena Cabezas","modo":"Profesor","codigoUnico":"2045678768242","cedula":"17346456785","clave":"melena_123","correo":"melena.cabezas@epn.edu.ec","estado":"Positivo-Grave","createdAt":1599433707507,"updatedAt":1599433707507,"id":16,"_id":16}
+>>>>>>> Desarrollo-David-Cruz
