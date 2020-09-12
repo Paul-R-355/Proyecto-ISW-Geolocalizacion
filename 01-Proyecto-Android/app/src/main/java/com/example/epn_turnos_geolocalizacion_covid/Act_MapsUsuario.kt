@@ -1,13 +1,16 @@
 package com.example.epn_turnos_geolocalizacion_covid
 
+import android.content.pm.PackageManager
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
+import kotlinx.android.synthetic.main.activity_act__usuarios_cuarentena.*
 
 
 class Act_MapsUsuario : AppCompatActivity(), OnMapReadyCallback {
@@ -26,7 +29,9 @@ class Act_MapsUsuario : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
+        establecerConfiguracionMapa(mMap)
         rutaUsuarioCercoRoto()
+        //localizacionUsuario()
     }
 
     fun rutaUsuarioCercoRoto(){
@@ -76,10 +81,6 @@ class Act_MapsUsuario : AppCompatActivity(), OnMapReadyCallback {
                 .width(15f)
                 .color(Color.RED)
         )
-        //mMap.addMarker(MarkerOptions().position(origenUno).title("Paul"))
-        //mMap.addMarker(MarkerOptions().position(origenDos).title("Paul"))
-        //mMap.addMarker(MarkerOptions().position(origenTres).title("Paul"))
-
 
         val melbourne = mMap.addMarker(
             MarkerOptions().position(origenUno)
@@ -118,6 +119,46 @@ class Act_MapsUsuario : AppCompatActivity(), OnMapReadyCallback {
                 .title("Paul")
         )
 
+    }
+
+
+
+    fun localizacionUsuario(){
+
+        val origen = LatLng(-0.231570, -78.511901)
+        val nombre="Usuario"
+
+        mMap.addMarker(MarkerOptions().position(origen).title(nombre))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origen, 18F))
+
+        val circle: Circle = mMap.addCircle(
+            CircleOptions()
+                .center(origen)
+                .radius(15.0)//radio en metros
+                .strokeWidth(10f)
+                .strokeColor(Color.GREEN)
+                .fillColor(Color.argb(128, 0, 180, 0))
+                .clickable(true)
+        )
+
+    }
+
+
+    fun establecerConfiguracionMapa(mapa:GoogleMap){
+        val contexto = this.applicationContext
+        with(mapa){
+            val permisosFineLocation = ContextCompat
+                .checkSelfPermission(
+                    contexto,
+                    android.Manifest.permission.ACCESS_FINE_LOCATION
+                )
+            val tienePermisos = permisosFineLocation== PackageManager.PERMISSION_GRANTED
+            if(tienePermisos){
+                mapa.isMyLocationEnabled=true
+            }
+            uiSettings.isZoomControlsEnabled =true
+            uiSettings.isMyLocationButtonEnabled=true
+        }
     }
 
 
