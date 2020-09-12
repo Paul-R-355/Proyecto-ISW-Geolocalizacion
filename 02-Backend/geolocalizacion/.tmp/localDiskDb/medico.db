@@ -1,2 +1,8 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"cedula","unique":true,"sparse":false}}
+<<<<<<< HEAD
+=======
+{"nombre":"Alejandro Choez","cedula":"17346484356","clave":"alejandro_123","correo":"alejandro.choez@epn.edu.ec","createdAt":1599434070144,"updatedAt":1599434070144,"id":1,"_id":1}
+{"nombre":"Yadira Rosousqui","cedula":"17344444356","clave":"Yadira_123","correo":"yadira.rushousqui@epn.edu.ec","createdAt":1599434141730,"updatedAt":1599434141730,"id":3,"_id":3}
+{"nombre":"Chock Norris","cedula":"17369696969","clave":"chock_123","correo":"chock.norris@epn.edu.ec","createdAt":1599434202088,"updatedAt":1599434202088,"id":4,"_id":4}
+>>>>>>> Desarrollo-David-Cruz

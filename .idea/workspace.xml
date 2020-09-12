@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9217285f-f324-4eae-bd16-024e7e3c0657" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="ee14e530-53fb-4b07-a7a3-4f55becd6ecd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/02-Backend/geolocalizacion/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/02-Backend/geolocalizacion/.gitignore" afterDir="false" />
+    </list>
+>>>>>>> Desarrollo-David-Cruz
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +19,19 @@
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
+<<<<<<< HEAD
         <option value="C:\Users\Paulr\Documents\Git-Kraken\software-II-paul-reinoso\Proyecto-ISW-Geolocalizacion\.idea" />
       </set>
     </option>
   </component>
   <component name="ProjectId" id="1hKT6edEXCdgF2YnvEJS3ySAgV6" />
+=======
+        <option value="D:\Documentos\Projects\expo-repo\Proyecto-ISW-Geolocalizacion\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h8lo4FJY8ksAqG2rSMo24HWEOA" />
+>>>>>>> Desarrollo-David-Cruz
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,26 +41,48 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+=======
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+>>>>>>> Desarrollo-David-Cruz
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="9217285f-f324-4eae-bd16-024e7e3c0657" name="Default Changelist" comment="" />
       <created>1599758609579</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599758609579</updated>
+=======
+      <changelist id="ee14e530-53fb-4b07-a7a3-4f55becd6ecd" name="Default Changelist" comment="" />
+      <created>1599400773530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599400773530</updated>
+>>>>>>> Desarrollo-David-Cruz
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1599758650624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599758650624" />
+=======
+    <state x="372" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1599437586516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="372" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599437586516" />
+>>>>>>> Desarrollo-David-Cruz
   </component>
 </project>
