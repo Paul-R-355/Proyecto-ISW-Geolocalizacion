@@ -23,7 +23,7 @@ import kotlinx.android.synthetic.main.activity_act__usuarios_cuarentena.*
 
 class Act_Login : AppCompatActivity() {
 
-    val urlPrincipal = "http://192.168.0.106:1337"
+    val urlPrincipal = "http://192.168.0.102:1337"
     lateinit var listaDatos:ArrayList<PacienteHttp>
     lateinit var notificationManager : NotificationManager
     lateinit var notificationChannel : NotificationChannel
